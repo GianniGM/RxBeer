@@ -7,4 +7,4 @@
 /build
 /captures
 .externalNativeBuild
-NetworkConfig.kt
+NetworkData.kt
