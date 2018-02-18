@@ -16,8 +16,7 @@ import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
 
-//https://api.brewerydb.com/v2/beers?key=4e575388b47e83690f10637f851fd9ff&format=json&abv=4
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
 
     companion object {
         private val TAG = MainActivity::class.java.simpleName
