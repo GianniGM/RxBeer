@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RxBeers</string>
+    <string name="search">Search</string>
+    <string name="error_message_text">Something is gone Wrong, I\'m Sorry :( \n\n try to check your connection</string>
 </resources>

@@ -14,10 +14,17 @@ import com.squareup.picasso.Picasso
  * Created by giannig on 11/02/18.
  */
 
-class BeersAdapter(private var list: MutableList<Data>) : RecyclerView.Adapter<BeersAdapter.BeersViewHolder>() {
+class BeersAdapter : RecyclerView.Adapter<BeersAdapter.BeersViewHolder>() {
+
+    private lateinit var list: MutableList<Data>
 
     companion object {
         val DEFAULT_IMAGE = "http://blog.marcafermana.it/wp-content/uploads/2014/07/boccale-di-birra.png"
+    }
+
+    fun setData(list :MutableList<Data>){
+        this.list = list
+        notifyDataSetChanged()
     }
 
     override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): BeersViewHolder {

@@ -3,7 +3,6 @@ package com.giangraziano.rxbeers.common
 import android.content.Context
 import android.support.v7.widget.GridLayoutManager
 import android.support.v7.widget.RecyclerView
-import android.util.Log
 
 /**
  * Created by giannig on 11/02/18.
